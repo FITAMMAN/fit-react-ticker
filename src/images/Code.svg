@@ -1,0 +1,12 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <rect rx="10" stroke="#000" filter="url(#svg_2_blur)" id="svg_2" height="47.0176" width="371" y="242.18232" x="222.59143" fill="#ffa500"/>
+  <rect id="svg_3" height="0" width="1" y="483" x="869.6" stroke="#000" fill="#ffa500"/>
+ </g>
+ <defs>
+  <filter id="svg_2_blur">
+   <feGaussianBlur stdDeviation="0.4" in="SourceGraphic"/>
+  </filter>
+ </defs>
+</svg>
