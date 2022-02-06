@@ -1,0 +1,62 @@
+{
+  "homepage": "http://FITAMMAN.github.io/fit-react-ticker",
+  "name": "fit-react-ticker",
+  "version": "2.0.0",
+  "description": "Nicest react ticker in town",
+  "author": "jeremyrajan",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "scripts": {
+    "test": "cross-env CI=1 jest",
+    "test:watch": "jest --watch",
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "prepare": "npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.8.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.16.5",
+    "@svgr/rollup": "^6.1.2",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.3",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "cross-env": "^7.0.3",
+    "gh-pages": "^3.2.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.4.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.62.0",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "rollup-plugin-url": "^1.4.0",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@types/webrtc": "^0.0.31"
+  }
+}
